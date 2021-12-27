@@ -5,10 +5,46 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/style.css" />
+        <!-- <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"
+        /> -->
+
+        <!-- <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"
+        /> -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+            crossorigin="anonymous"
+        />
         <!-- <script defer src="index.js"></script> -->
         <title>테트리스</title>
     </head>
     <body>
+        <div class="wrapper">
+            <header>
+                <h1>테트리스</h1>
+            </header>
+
+            <main>
+                <div class="tetris"></div>
+                <div class="side-content">
+                    <div class="next-block-box">
+                        <div class="text">Next</div>
+                        <div id="nextBlock" class="content">sd</div>
+                    </div>
+                    <div id="score" class="score">xxx 점</div>
+                    <div class="control-btns">
+                        <button id="startBtn" class="btn start-btn">start</button>
+                        <button id="stopBtn" class="btn stop-btn">stop</button>
+                        <button id="resetBtn" class="btn reset-btn">reset</button>
+                    </div>
+                </div>
+            </main>
+        </div>
         <script></script>
     </body>
 </html>
